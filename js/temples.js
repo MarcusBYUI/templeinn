@@ -37,7 +37,9 @@ function makeCard(tempList) {
     //the template
     return `
         <div class="temple-card">
-            <div class="temple-image">
+            <div class="temple-image" style="background-image: url(../images/${
+              temple.image
+            })">
               <div class="temple-name-overlay">
                 <p>${temple.name}</p>
                 <a href="${temple.link}" target="_blank">

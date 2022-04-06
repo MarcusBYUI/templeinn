@@ -102,6 +102,8 @@ div.hero {
   height: 950px;
   width: 100%;
   background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 97px;
 }
 .hero-container {
@@ -504,7 +506,7 @@ footer {
 
 .temples-container {
   padding-top: 118px;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -521,7 +523,6 @@ footer {
 }
 
 .temple-image {
-  background-image: url("../images/accra.jpg");
   background-size: cover;
   height: 350px;
   position: relative;
@@ -584,8 +585,8 @@ footer {
 }
 
 .temple-location img {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
 }
 .temple-location button {
   background-color: transparent;
@@ -656,7 +657,15 @@ footer {
 .reservation-form {
   padding-left: 20px;
 }
+.reservation-form input:required {
+  border-right: 5px solid red;
+  border-left: 5px solid red;
+}
 
+.reservation-form input:required:valid {
+  border-right: 5px solid rgb(60, 190, 0);
+  border-left: 5px solid rgb(60, 190, 0);
+}
 .reservation-form label,
 .reservation-form input,
 .reservation-form textarea,

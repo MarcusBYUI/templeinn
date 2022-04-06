@@ -126,7 +126,6 @@
   .temple-trans-banner p {
     font-size: 17px;
     line-height: 29px;
-    margin: -10px 0 0 0;
   }
 
   .reserve-trans-banner {
@@ -168,7 +167,6 @@
   .temple-cards-grid {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 88px;
-    grid-gap: 205px;
   }
 
   /* <!-- ------------------------------Reservation Page------------------------ --> */

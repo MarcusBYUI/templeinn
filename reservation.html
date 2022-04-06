@@ -48,10 +48,10 @@
       <nav class="primary">
         <button id="ham">&#9776;</button>
         <ul id="menu" class="visuallyhidden">
-          <li><a href="/templeinn/index.html">Home</a></li>
-          <li><a href="/templeinn/temples.html">Temples</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./temples.html">Temples</a></li>
           <li><a href="#">Reservations</a></li>
-          <li><a href="/templeinn/services.html">Services</a></li>
+          <li><a href="./services.html">Services</a></li>
         </ul>
       </nav>
     </header>
@@ -61,37 +61,58 @@
 
         <div class="temple-reservation-form-container">
           <h3>Reservation Form</h3>
-          <form class="reservation-form" action="">
+          <form class="reservation-form" action="thankyou.html" method="get">
             <label>
-              First Name <input type="text" name="firstname" required
+              First Name
+              <input
+                type="text"
+                name="firstname"
+                pattern="^[A-Za-z -]{1,}$"
+                required
             /></label>
-            <label> Last Name <input type="text" name="lastname" /></label>
-            <label> E-mail <input type="email" name="email" /></label>
-            <label> Phone Number <input type="tel" name="telephone" /></label>
-            <label> Home Town <input type="text" name="hometown" /></label>
+            <label>
+              Last Name
+              <input
+                type="text"
+                name="lastname"
+                pattern="^[A-Za-z -]{1,}$"
+                required
+            /></label>
+            <label> E-mail <input type="email" name="email" required /></label>
+            <label>
+              Phone Number
+              <input type="tel" name="telephone" pattern="^[0-9]{5,}$" required
+            /></label>
+            <label>
+              Home Town
+              <input
+                type="text"
+                name="hometown"
+                pattern="^[A-Za-z -]{1,}$"
+                required
+            /></label>
             <label>
               Temple Location
-              <select id="form-temple-list" name="cars">
-                <option value="volvo">Select a Temple</option>
-                <option value="volvo">Aba</option>
-                <option value="saab">Accra</option>
-                <option value="fiat">Cape Town</option>
-                <option value="audi">Nairobi</option>
+              <select id="form-temple-list" name="temples" required>
+                <option value="single">Aba</option>
+                <option value="accra">Accra</option>
+                <option value="johannesburg">Johannesburg</option>
+                <option value="curitiba">Curitiba</option>
               </select></label
             >
-            <label> Date <input type="date" name="date" /></label>
+            <label> Date <input type="date" name="date" required /></label>
             <label>
               Type of Room
-              <select id="form-temple-list" name="cars">
-                <option value="volvo">Select a Temple</option>
-                <option value="volvo">Aba</option>
-                <option value="saab">Accra</option>
-                <option value="fiat">Cape Town</option>
-                <option value="audi">Nairobi</option>
+              <select id="form-temple-list" name="rooms" required>
+                <option value="single">Single</option>
+                <option value="double">Double</option>
+                <option value="quad">Quad</option>
+                <option value="king">King</option>
               </select></label
             >
             <label>
-              Number Of Rooms <input type="number" value="1" name="roomnumbers"
+              Number Of Rooms
+              <input type="number" value="1" name="roomnumbers" required
             /></label>
 
             <label

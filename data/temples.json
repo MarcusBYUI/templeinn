@@ -3,10 +3,10 @@
     {
       "id": 1,
       "name": "Aba Nigeria Temple",
-      "email": "info@enistores.com",
+      "email": "abatemple@thechurchofjesuschrist.org",
       "phone": "(234) 80-3903-4810",
       "address": "72-80 Okpu-Umuobo Rd. Aba. Abia State, Nigeria",
-      "image": "https://google.com",
+      "image": "aba.jpg",
       "services": [
         "No clothing rental available",
         "No cafeteria available",
@@ -30,10 +30,10 @@
     {
       "id": 2,
       "name": "Accra Ghana Temple",
-      "email": "info@enistores.com",
+      "email": "accratemple@thechurchofjesuschrist.org",
       "phone": "(233) 302-650-123",
       "address": "57 Independence Ave, Cantonments, Accra, Ghana,",
-      "image": "https://google.com",
+      "image": "accra.jpg",
       "services": [
         "No clothing rental available",
         "No cafeteria available",
@@ -57,11 +57,11 @@
     },
     {
       "id": 3,
-      "name": "Johannesburg South Africa Temple",
-      "email": "info@enistores.com",
+      "name": "Johannesburg SA Temple",
+      "email": "johannesburgtemple@thechurchofjesuschrist.org",
       "phone": "(27) 11-645-1540",
       "address": "7 Jubilee Rd Parktown Johannesburg, 2193, South Africa",
-      "image": "https://google.com",
+      "image": "johannesburb.jpg",
       "services": [
         "Clothing rental available",
         "No cafeteria available",
@@ -91,10 +91,10 @@
     {
       "id": 4,
       "name": "Curitiba Brazil Temple",
-      "email": "info@enistores.com",
+      "email": "curitibatemple@thechurchofjesuschrist.org",
       "phone": "(55) 41-3204-6650",
       "address": "Rua Deputado Heitor Alencar Furtado, Curitiba, Brazil",
-      "image": "https://google.com",
+      "image": "curitiba.jpg",
       "services": [
         "No clothing rental available",
         "No cafeteria available",
