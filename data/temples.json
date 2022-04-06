@@ -1,0 +1,120 @@
+{
+  "temples": [
+    {
+      "id": 1,
+      "name": "Aba Nigeria Temple",
+      "email": "info@enistores.com",
+      "phone": "(234) 80-3903-4810",
+      "address": "72-80 Okpu-Umuobo Rd. Aba. Abia State, Nigeria",
+      "image": "https://google.com",
+      "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": "The Aba Nigeria Temple was the first temple built in Nigeria, the second built in West Africa, and the third built in Africa. President Gordon B. Hinckley dedicated the Aba Nigeria Temple during a worldwide tour that included visits to Anchorage, Alaska; Vladivostok, Russia; Seoul, South Korea; Taipei, Taiwan; Hong Kong, China; New Delhi, India; Nairobi, Kenya; and finally Aba, Nigeria. His first view of the temple was from a helicopter in a flyover of the site.",
+      "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+      "closure": [
+        {
+          "year": 2022,
+          "dates": [
+            "Friday, 8 April 2022.",
+            "Saturday, 20 August 2022",
+            "Monday, 5 September 2022 - Monday, 2 January 2023"
+          ]
+        }
+      ],
+      "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    },
+    {
+      "id": 2,
+      "name": "Accra Ghana Temple",
+      "email": "info@enistores.com",
+      "phone": "(233) 302-650-123",
+      "address": "57 Independence Ave, Cantonments, Accra, Ghana,",
+      "image": "https://google.com",
+      "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": "The announcement of the Accra Ghana Temple by President Gordon B. Hinckley came after he had challenged members to make a special effort to fellowship new converts to the Church. \"Put your arms around them, make them feel at home. Teach them the doctrines of the kingdom. Befriend them and help them in every way possible,\" he said. \"I make you a promise that if you will do that you will be blessed with a temple in your midst.",
+      "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+      "closure": [
+        {
+          "year": 2022,
+          "dates": [
+            "Monday, 21 February 2022 - Monday, 23 May 2022",
+            "Saturday, 20 August 2022",
+            "Tuesday, 13 September 2022 - Tuesday, 27 September 2022",
+            "Sunday, 25 December 2022 - Monday, 26 December 2022"
+          ]
+        }
+      ],
+      "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    },
+    {
+      "id": 3,
+      "name": "Johannesburg South Africa Temple",
+      "email": "info@enistores.com",
+      "phone": "(27) 11-645-1540",
+      "address": "7 Jubilee Rd Parktown Johannesburg, 2193, South Africa",
+      "image": "https://google.com",
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": "The Johannesburg South Africa Temple was the first temple built in Africa (and in South Africa). The first convert in South Africa, Henry Stringer, was baptized on June 15, 1853. However, the exodus of the Saints to Utah and government-imposed restrictions on the number of missionaries who could serve greatly hindered the work in South Africa until the 1980s. The announcement came less than 3 years from the revelation of the extension of priesthood regardless of race",
+      "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+      "closure": [
+        {
+          "year": 2022,
+          "dates": [
+            "Saturday, 9 April 2022",
+            "Friday, 15 April 2022",
+            "Wednesday, 27 April 2022",
+            "Thursday, 16 June 2022",
+            "Tuesday, 9 August 2022",
+            "Monday, 15 August 2022 - Monday, 14 November 2022",
+            "Friday, 16 December 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ]
+        }
+      ],
+      "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    },
+    {
+      "id": 4,
+      "name": "Curitiba Brazil Temple",
+      "email": "info@enistores.com",
+      "phone": "(55) 41-3204-6650",
+      "address": "Rua Deputado Heitor Alencar Furtado, Curitiba, Brazil",
+      "image": "https://google.com",
+      "services": [
+        "No clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": "In 1953, at the dedication of the Ipomeia meetinghouse, President Spencer W. Kimball declared: \"One day, in this region, there will be a temple of the Lord.\" Over 50 years later, fulfillment of that prophecy began when President Gordon B. Hinckley personally selected the site for the Curitiba Brazil Temple in 2004 during his travels to rededicate the São Paulo Brazil Temple",
+      "schedule": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment.",
+      "closure": [
+        {
+          "year": 2022,
+          "dates": [
+            "Monday, 11 July 2022 - Monday, 19 September 2022",
+            "Saturday, 1 October 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ]
+        }
+      ],
+      "link": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng"
+    }
+  ]
+}
