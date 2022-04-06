@@ -320,6 +320,7 @@ label {
   background: url(../images/temple-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .temple-trans-banner {
