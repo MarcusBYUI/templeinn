@@ -176,6 +176,10 @@
     margin-bottom: 88px;
   }
 
+  .temple-details {
+    height: 715px;
+  }
+
   /* <!-- ------------------------------Reservation Page------------------------ --> */
   .temple-reservation-form-container {
     width: 800px;

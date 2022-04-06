@@ -627,7 +627,7 @@ footer {
 .temple-closure p:nth-child(1) {
   font-size: 20px;
   font-weight: 600;
-  color: #002346;
+  color: #003d79;
   margin-bottom: 0;
 }
 
@@ -649,7 +649,7 @@ footer {
 }
 
 .temple-closure ul li {
-  color: #002346;
+  color: #003d79;
 
   font-weight: 600;
   padding-right: 45px;
@@ -698,7 +698,6 @@ footer {
 }
 
 .reservation-form label input,
-.reservation-form select,
 .reservation-form textarea {
   margin-top: 5px;
   background: #ffffff;
