@@ -722,7 +722,7 @@ footer {
   margin-bottom: 50px;
 }
 
-#form-temple-list {
+.form-temple-list {
   padding: 5px 0 5px 0;
   border: 1px solid #ffffff;
   box-sizing: border-box;
@@ -730,7 +730,7 @@ footer {
   color: white;
 }
 
-#form-temple-list option {
+.form-temple-list option {
   background-color: rgba(0, 61, 121, 0.84);
 }
 
