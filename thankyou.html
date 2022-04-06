@@ -50,81 +50,22 @@
         <ul id="menu" class="visuallyhidden">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./temples.html">Temples</a></li>
-          <li><a href="#">Reservations</a></li>
+          <li><a href="./reservation.html">Reservations</a></li>
           <li><a href="./services.html">Services</a></li>
         </ul>
       </nav>
     </header>
     <main id="temple-main">
       <div class="reservation-container">
-        <h1>Reservation</h1>
+        <h1>Notification</h1>
 
         <div class="temple-reservation-form-container">
-          <h3>Reservation Form</h3>
-          <form class="reservation-form" action="./reserved.html" method="get">
-            <label>
-              First Name
-              <input
-                type="text"
-                name="firstname"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-            <label>
-              Last Name
-              <input
-                type="text"
-                name="lastname"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-            <label> E-mail <input type="email" name="email" required /></label>
-            <label>
-              Phone Number
-              <input type="tel" name="telephone" pattern="^[0-9]{5,}$" required
-            /></label>
-            <label>
-              Home Town
-              <input
-                type="text"
-                name="hometown"
-                pattern="^[A-Za-z -]{1,}$"
-                required
-            /></label>
-            <label>
-              Temple Location
-              <select id="form-temple-list" name="temples" required>
-                <option value="single">Aba</option>
-                <option value="accra">Accra</option>
-                <option value="johannesburg">Johannesburg</option>
-                <option value="curitiba">Curitiba</option>
-              </select></label
-            >
-            <label> Date <input type="date" name="date" required /></label>
-            <label>
-              Type of Room
-              <select id="form-temple-list" name="rooms" required>
-                <option value="single">Single</option>
-                <option value="double">Double</option>
-                <option value="quad">Quad</option>
-                <option value="king">King</option>
-              </select></label
-            >
-            <label>
-              Number Of Rooms
-              <input type="number" value="1" name="roomnumbers" required
-            /></label>
-
-            <label
-              >Reservation Comment
-              <textarea name="reservationcomment" cols="30" rows="5"></textarea>
-            </label>
-            <input
-              class="reservation-button"
-              type="submit"
-              value="Make Reservation"
-            />
-          </form>
+          <h3>Message received</h3>
+          <p>
+            We have received your message. We will reply to you via email within
+            48hours. Make sure to check your spam notification if you don't get
+            a reply within the stipulated time
+          </p>
         </div>
 
         <!-- ------------------------------Temple Selection ------------------------ -->

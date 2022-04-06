@@ -498,6 +498,12 @@ footer {
   grid-column: 1/3;
 }
 
+.weather {
+  font-size: 15px;
+  text-align: center;
+  grid-column: 1/3;
+}
+
 /* <!-- ------------------------------Temple Page------------------------ --> */
 
 #temple-main {
@@ -587,6 +593,7 @@ footer {
 .temple-location img {
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 .temple-location button {
   background-color: transparent;
@@ -831,4 +838,12 @@ footer {
 
 .edit {
   margin-top: -50px;
+}
+
+/* -----------------thank you page---------------------- */
+
+.temple-reservation-form-container p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
