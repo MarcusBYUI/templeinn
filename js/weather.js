@@ -93,8 +93,6 @@ const apiURL =
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
-
     const [todaysDate, monthName, inTwoDays, inThreedays] = today();
 
     //today

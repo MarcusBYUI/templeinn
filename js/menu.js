@@ -26,3 +26,27 @@ menuBtn.addEventListener("click", () => {
     );
   }
 });
+
+// set active
+
+function active() {
+  switch (document.title) {
+    case "Temple Inn - A Reverent Abode":
+      document.querySelector("#home").classList.add("active");
+      break;
+
+    case "Temple Inn - Make A Reservation":
+      document.querySelector("#reservation").classList.add("active");
+      break;
+
+    case "Temple Inn - Our Services":
+      document.querySelector("#services").classList.add("active");
+      break;
+
+    case "Temple Inn - View Temples":
+      document.querySelector("#temples").classList.add("active");
+      break;
+  }
+}
+
+active();

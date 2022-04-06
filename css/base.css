@@ -91,6 +91,11 @@ ul li a:hover {
   background-color: white;
   color: rgba(0, 61, 121, 0.7);
 }
+
+ul li .active {
+  background-color: white;
+  color: rgba(0, 61, 121, 0.7);
+}
 ul li a:active {
   background-color: white;
   color: rgba(0, 61, 121, 0.7);
